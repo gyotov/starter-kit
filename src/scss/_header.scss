@@ -1,0 +1,12 @@
+.header {
+	background-color: pink; 
+	
+	&__inner {
+		display: flex; 
+	}
+
+	&__content {
+		display: flex; 
+		flex-flow: row wrap;
+	}
+}
